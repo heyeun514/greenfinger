@@ -18,7 +18,7 @@ class Calendar extends React.Component {
         source={require('../assets/calendar.png')}
         style={{width: '100%', height: '100%'}}>
         <TouchableOpacity
-            onPress={this.goBack.bind(this)}
+            onPress={this.moveToPhoto.bind(this)}
             style={styles.goBack}>
             <Text>{"<"}</Text>
         </TouchableOpacity>

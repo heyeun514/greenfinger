@@ -8,7 +8,7 @@ import Recommend from './pages/Recommend';
 import ShopList from './pages/ShopList';
 import MyPlants from './pages/MyPlants';
 import Calendar from './pages/Calendar';
-
+import Photo from './pages/Photo';
 
 const AppNavigator = createStackNavigator(
   {
@@ -23,6 +23,7 @@ const AppNavigator = createStackNavigator(
     ShopList: ShopList,
     MyPlants: MyPlants,
     Calendar: Calendar,
+    Photo: Photo
   },
   {
     initialRouteName: 'Home',
